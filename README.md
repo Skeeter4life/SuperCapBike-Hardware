@@ -1,1 +1,1 @@
-# SuperCapBike-Hardware
+This repository contains all relevent hardware for my supercapacitor bike.
