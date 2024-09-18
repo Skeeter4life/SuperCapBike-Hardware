@@ -563,6 +563,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -578,6 +586,18 @@
     [
       "1096cbe7-ac56-48cb-aadd-3e4addcdbbb7",
       "Root"
+    ],
+    [
+      "e06cfff2-2d74-484b-b515-a72922d1b24f",
+      "Half bridge Circuit"
+    ],
+    [
+      "a964da0d-002d-40d7-a8b6-c48f0e32c7fd",
+      "Motor Controller"
+    ],
+    [
+      "a3002b5e-253f-453a-a6f1-d0dba20d26d3",
+      "Accumulator"
     ]
   ],
   "text_variables": {}
