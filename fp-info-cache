@@ -1,4 +1,4 @@
-23661069043849534
+23671431981640089
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,13 @@ audio belton reverb
 0
 7
 7
+Barrel_Jack_PJ_002AH
+PJ-002AH_CUD
+
+PJ-002AH 
+0
+3
+3
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -6422,6 +6429,13 @@ Capacitor_Tantalum_SMD
 CP_EIA-7361-438_AVX-U_Pad2.18x3.30mm_HandSolder
 Tantalum Capacitor SMD AVX-U (7361-438 Metric), IPC_7351 nominal, (Body size from: http://datasheets.avx.com/NOS.pdf), generated with kicad-footprint-generator
 capacitor tantalum
+0
+2
+2
+Ceramic_Cap_5.08mm_Spacing
+Ceramic_Cap_5.08mm_Spacing
+
+C322C104M5U5TA 
 0
 2
 2
@@ -54634,6 +54648,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+Diode_1N4148
+1N4148
+
+1N4148 
+0
+2
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -57826,6 +57847,13 @@ TO254P1016X419X2286-3
 0
 3
 3
+Inductor_RLB0712_100KL
+IND_BOURNS_RLB0712
+
+RLB0712-100KL 
+0
+2
+2
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -94674,6 +94702,27 @@ CONN3_1986712-3_TEC
 0
 6
 6
+Terminal_1988804
+CONN_1988804
+
+1988804 
+0
+2
+2
+Terminal_1988817
+PHOENIX_1988817
+
+
+0
+3
+3
+Terminal_1988862
+PHOENIX_1988862
+
+
+0
+8
+8
 TestPoint
 TestPoint_2Pads_Pitch2.54mm_Drill0.8mm
 Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm
