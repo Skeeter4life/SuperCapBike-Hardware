@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.6,
-          "width": 1.6
+          "drill": 1.3,
+          "height": 1.95,
+          "width": 1.95
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|85777250|39996960|8508e3c6-dab4-41ee-9af1-2c5ec7b3f919|f89bfc79-dc99-4638-8cea-8761b4bb2a79",
+        "copper_edge_clearance|89218950|44000000|eb64590f-1ccf-48ce-8c37-c97c8cedb540|9e811253-5e0f-42e1-9a3f-ac73ed0eb782",
+        "copper_edge_clearance|89472950|38000520|466d92d7-fbe1-4814-a5ac-7b600ab5605c|031571fe-30e0-467e-a624-d1fff4e2dd58",
+        "hole_clearance|50230000|99640000|15008afa-5f70-4e57-aad5-71b4a4967a55|42912c77-8adb-4786-9802-80abf1c26dec",
+        "hole_clearance|50975000|99640000|622c6451-23ae-4772-af49-16582b0f3c2a|15008afa-5f70-4e57-aad5-71b4a4967a55",
+        "hole_clearance|85777250|39996960|5b710fb1-cff7-416f-b271-0818c8aab9cf|f89bfc79-dc99-4638-8cea-8761b4bb2a79",
+        "hole_clearance|85777250|42003560|5b4b17bf-ac7a-4079-811e-47ee9cca6191|f89bfc79-dc99-4638-8cea-8761b4bb2a79",
+        "hole_clearance|89218950|44000000|d1a45432-67b7-43f7-9b26-b59d03f4d3c6|9e811253-5e0f-42e1-9a3f-ac73ed0eb782",
+        "hole_clearance|89472950|38000520|f2f5781a-6260-410b-8125-a31be9da6e66|031571fe-30e0-467e-a624-d1fff4e2dd58",
+        "hole_clearance|91479550|38000520|9ee7acd9-165a-48a6-a461-dc26cc1b3583|031571fe-30e0-467e-a624-d1fff4e2dd58",
+        "hole_clearance|91733550|44000000|2f62599e-3595-4f10-ba81-772414e3743c|9e811253-5e0f-42e1-9a3f-ac73ed0eb782",
+        "invalid_outline|85777250|42003560|8508e3c6-dab4-41ee-9af1-2c5ec7b3f919|00000000-0000-0000-0000-000000000000",
+        "invalid_outline|89218950|44000000|eb64590f-1ccf-48ce-8c37-c97c8cedb540|00000000-0000-0000-0000-000000000000",
+        "invalid_outline|89472950|38000520|466d92d7-fbe1-4814-a5ac-7b600ab5605c|00000000-0000-0000-0000-000000000000",
+        "solder_mask_bridge|85777250|39996960|5b710fb1-cff7-416f-b271-0818c8aab9cf|f89bfc79-dc99-4638-8cea-8761b4bb2a79",
+        "solder_mask_bridge|85777250|42003560|5b4b17bf-ac7a-4079-811e-47ee9cca6191|f89bfc79-dc99-4638-8cea-8761b4bb2a79",
+        "solder_mask_bridge|89218950|44000000|d1a45432-67b7-43f7-9b26-b59d03f4d3c6|9e811253-5e0f-42e1-9a3f-ac73ed0eb782",
+        "solder_mask_bridge|89472950|38000520|f2f5781a-6260-410b-8125-a31be9da6e66|031571fe-30e0-467e-a624-d1fff4e2dd58",
+        "solder_mask_bridge|91479550|38000520|9ee7acd9-165a-48a6-a461-dc26cc1b3583|031571fe-30e0-467e-a624-d1fff4e2dd58",
+        "solder_mask_bridge|91733550|44000000|2f62599e-3595-4f10-ba81-772414e3743c|9e811253-5e0f-42e1-9a3f-ac73ed0eb782"
+      ],
       "meta": {
         "version": 2
       },
@@ -179,6 +200,7 @@
       ],
       "track_widths": [
         0.0,
+        0.4,
         0.5,
         2.5
       ],
@@ -481,7 +503,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
