@@ -2,7 +2,7 @@
 
 ## Main Features
 
-  A 2x 500F 16V super-capacitor bank-based accumulator:
+  A 2 x ((500F @ 2.7V) x 6)  super-capacitor bank-based accumulator:
   
       1. Ability to provide high amounts of current instantaneously.
       
@@ -134,7 +134,7 @@ Total raw components cost: **$ 113.95 CAD**
 
   -Q: Why are you using only through-hole components?
   
-  -A: Since some of these components are new to me, I wanted to be able to quickly set up and re-arrange components on a breadboard so I can fiddle and experiment when them.
+  -A: Since some of these components are new to me, I wanted to be able to quickly set up and re-arrange components on a breadboard so I can fiddle and experiment with them.
 
   -Q: Why did you choose to design your PCB only with 2 layers?
   
