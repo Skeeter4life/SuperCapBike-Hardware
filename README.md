@@ -146,15 +146,19 @@ Total raw components cost: **$ 113.95 CAD**
 
   -Q: Why the relays?
   
-  -A: I was able to simulate and build a circuit that switches two capacitors in series or parallel with only MOSFETS, however the performance when V_GS < ~4V was inadequate. Additionally, diodes were required to prevent reverse currents from connecting C2- to GND. As such, relays had significantly greater performance when switching the super-capacitors into parallel. I still kept Q7 and Q8 to switch the capacitors into series as a tribute to what I have learned from my experience with MOSFETs.
+  -A: I was able to simulate and build a circuit that switches two capacitors in series or parallel with only MOSFETS, however, the performance at low accumulator voltage was inadequate. Additionally, diodes were required to prevent reverse currents from connecting C2- to GND. As such, relays had significantly greater performance when switching the super-capacitors into parallel. I still kept Q7 and Q8 to switch the capacitors into series as a tribute to what I have learned from my experience with MOSFETs.
 
   -Q: Why did you choose the IRFZ44N?
   
-  -A: The IRFZ44N is a widely used, affordable n-type MOSFET, as of which I have many on hand. I am well within the limitations of the drain current I_D, and drain source voltage V_DS. It has a favourable characteristic of only needing a V_GS of ~5.5V to supply 10A at a V_DS of ~ 0.3V. All transients were more than acceptable with the chosen MOSFET drivers for my         application.  
+  -A: The IRFZ44N is a widely used, affordable n-type MOSFET, as of which I have many on hand. I am well within the limitations of the drain current I_D, and drain source voltage V_DS. It has a favourable characteristic of only needing a V_GS of ~5.5V to supply 10A at a V_DS of ~ 0.3V. All transients were more than acceptable with the chosen MOSFET drivers for my application.  
 
   -Q: Why did you choose the GT065P06T?
   
   -A: I chose the GT065P06T primarily due to its outstanding R_DS of < 11mΩ at V_GS -4.5V for a p-type MOSFET and low gate charge. When the capacitors are in series, I want to minimize the power dissipated through that MOSFET without using PWM. 
+
+## Technical Challenges
+
+  As mentioned in the "Why the relays?" question, I was able to switch capacitors from parallel and series through MOSFETs alone, however, the overall performance was sub-optimal. The largest issue that occurred was with the MOSFETs I was using at the time (IRF530, n-type power MOSFET) when V_GS < ~4.5V, the MOSFET entered its cutoff region and the drain current I_D was significantly reduced. This is a problem because the entire system was designed to have a very low Norton resistance and 4.5V at a (to be verified exactly) ~5ohms is 900mA, which was experimentally found to be sufficient to drive the 500W motor. I replaced the IRF530s for IRFZ44Ns due to the nature of its V_DS(on) ~5.5V, however, it would still not solve the premise of the issue. Additionally, it was quite tricky to find a way to connect C2- to C1- (GND). C2- of course, is at a lower potential and current will flow through the body diode of the n-type MOSFET from GND to C2-. This can potentially be resolved through body diode cancellation with the addition of more MOSFETs, or the addition of Schottky diodes, however, this further increases cost and decreases the performance due to forward voltage drops. Thus, the hybrid solution of relays for connecting the super-capacitors in parallel and MOSFETs to connect them in series was implemented. 
 
 ## What I am Working on Now
 
