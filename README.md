@@ -43,7 +43,7 @@ Electrolytic capacitors:
   
 Diodes:
 - 1N4148 x 3 [^5], 
-- 1N5819 x 4 [^6]
+- 1N5819 x 5 [^6]
 
 LEDs: 
 - 5.0mm THT x2 [^7]
@@ -53,7 +53,7 @@ Fuse:
 - F4658-ND x 1 [^9]
 
 Sockets & Pins: 
-- 1x01 1.00mm Vertical Male Pin x 4 [^10], 
+- 1x01 1.00mm Vertical Male Pin x 5 [^10], 
 - 8 Dip 7.62mm Socket x 5 [^11],
 - 16 Dip 7.62mm Socket x 1 [^12], 
 - 28 Dip 7.62mm Socket x2 [^13] 
@@ -111,7 +111,7 @@ Hall Effect Sensors:
 Switches: 
 - 2057-SW-R-K1-A-ND x 1 [^34] 
 
-Total raw components cost: **$ 113.95 CAD**
+Total raw components cost: **$ 114.69 CAD**
 
 *Note: The prices here show the price for the exact number of the components listed. They were not entirely optimized. It would be significantly cheaper if components were bought in bulk*
 

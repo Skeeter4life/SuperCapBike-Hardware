@@ -3653,7 +3653,7 @@
 			)
 		)
 	)
-	(global_label "P3"
+	(global_label "P2"
 		(shape input)
 		(at 29.21 186.69 270)
 		(fields_autoplaced yes)
@@ -3719,7 +3719,7 @@
 			)
 		)
 	)
-	(global_label "P2"
+	(global_label "P1"
 		(shape input)
 		(at 26.67 186.69 270)
 		(fields_autoplaced yes)
@@ -3829,7 +3829,7 @@
 			)
 		)
 	)
-	(global_label "P1"
+	(global_label "P3"
 		(shape input)
 		(at 24.13 186.69 270)
 		(fields_autoplaced yes)
@@ -3839,7 +3839,7 @@
 			)
 			(justify right)
 		)
-		(uuid "9ec99522-9bf9-4d95-81a4-327901e39d9f")
+		(uuid "982ae954-fd9b-4d76-a139-f7cbeabfa1a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 24.13 192.1547 90)
 			(effects
