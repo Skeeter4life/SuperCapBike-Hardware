@@ -162,6 +162,11 @@ I am currently installing the Hall effect sensors into the motor. The previous s
 
 ![A photo of the the motor and replaced hall-effect sensors](Images/Hall-Effect-Sensor-Replacement.jpg)
 
+## Personal Note
+
+Somehow I managed to get sick twice throughout the last two months! I am doing my best to balance schoolwork and look over my design. I hope to have the PCB ordered by the end of this week (2024/10/20). Please Stay tuned! I am still pushing through and doing all I can =)!
+
+
 ## Sources
 
 [^1]: https://www.digikey.ca/en/products/detail/kemet/C322C104M5U5TA/818107

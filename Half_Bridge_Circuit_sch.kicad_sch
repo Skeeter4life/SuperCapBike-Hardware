@@ -7,7 +7,7 @@
 	(title_block
 		(title "Motor Driver - Half Bridge Circuit")
 		(date "2024-09-07")
-		(rev "1")
+		(rev "2")
 		(company "Andrew Fischer")
 	)
 	(lib_symbols
@@ -1881,16 +1881,6 @@
 		)
 		(uuid "f5eb00a3-357b-49be-9dba-ed7495da5abc")
 	)
-	(text "Gate Resistors to be calculated\n"
-		(exclude_from_sim no)
-		(at 112.34 62.7367 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e6d3ea9a-5a5a-4ecb-a0f0-3b78d4bfc685")
-	)
 	(label "VS1"
 		(at 116.84 54.61 0)
 		(fields_autoplaced yes)
@@ -2659,7 +2649,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "47Ω"
 			(at 102.87 154.94 90)
 			(effects
 				(font
@@ -2797,7 +2787,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "47Ω"
 			(at 102.87 96.52 90)
 			(effects
 				(font
@@ -3393,7 +3383,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "47Ω"
 			(at 102.87 53.34 90)
 			(effects
 				(font
@@ -4125,7 +4115,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "47Ω"
 			(at 102.87 40.64 90)
 			(effects
 				(font
@@ -4193,7 +4183,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "47Ω"
 			(at 102.87 109.22 90)
 			(effects
 				(font
@@ -4393,7 +4383,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "47Ω"
 			(at 102.87 167.64 90)
 			(effects
 				(font
