@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.3*%
-%TF.CreationDate,2024-10-27T23:31:30-07:00*%
+%TF.CreationDate,2024-10-28T00:18:42-07:00*%
 %TF.ProjectId,SuperCapacitorBike,53757065-7243-4617-9061-6369746f7242,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L1,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.3) date 2024-10-27 23:31:30*
+G04 Created by KiCad (PCBNEW 8.0.3) date 2024-10-28 00:18:42*
 %MOMM*%
 %LPD*%
 G01*
@@ -465,7 +465,7 @@ X78500000Y-109000000D03*
 %TD*%
 D10*
 %TO.P,TP17,1,1*%
-%TO.N,/Motor Controller/SDA*%
+%TO.N,/Motor Controller/SCL*%
 X72500000Y-61500000D03*
 %TD*%
 D15*
@@ -740,10 +740,10 @@ X72120000Y-74480000D03*
 %TO.N,unconnected-(U5-NC-Pad11)*%
 X72120000Y-71940000D03*
 %TO.P,U5,12,SCK*%
-%TO.N,/Motor Controller/SDA*%
+%TO.N,/Motor Controller/SCL*%
 X72120000Y-69400000D03*
 %TO.P,U5,13,SDA*%
-%TO.N,/Motor Controller/SCL*%
+%TO.N,/Motor Controller/SDA*%
 X72120000Y-66860000D03*
 %TO.P,U5,14,NC*%
 %TO.N,unconnected-(U5-NC-Pad14)*%
@@ -809,7 +809,7 @@ X58567500Y-118630000D03*
 %TD*%
 D10*
 %TO.P,TP16,1,1*%
-%TO.N,/Motor Controller/SCL*%
+%TO.N,/Motor Controller/SDA*%
 X105500000Y-63250000D03*
 %TD*%
 D35*

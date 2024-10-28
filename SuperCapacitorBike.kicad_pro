@@ -506,7 +506,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "../../../../../Windows/System32/",
       "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",

@@ -4456,16 +4456,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 99.06) (xy 207.01 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18fa6a3a-bd65-4519-ad87-875ac1e65cad")
-	)
-	(wire
-		(pts
 			(xy 270.51 101.6) (xy 275.59 101.6)
 		)
 		(stroke
@@ -4483,16 +4473,6 @@
 			(type default)
 		)
 		(uuid "1b92bbb0-0d9f-4cf3-8e6f-1626f6d6e5cb")
-	)
-	(wire
-		(pts
-			(xy 189.23 96.52) (xy 210.82 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21320fba-0b0f-4c0f-a8ed-a009c70d5c27")
 	)
 	(wire
 		(pts
@@ -4593,6 +4573,16 @@
 			(type default)
 		)
 		(uuid "35b24d4a-608b-4883-ab10-3f2ff9287dcb")
+	)
+	(wire
+		(pts
+			(xy 128.27 40.64) (xy 128.27 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e685b4-b318-4e24-a4f2-a4d4327020ca")
 	)
 	(wire
 		(pts
@@ -4946,6 +4936,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 96.52) (xy 210.82 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b477fca-23ce-4d94-9376-bc4750e32756")
+	)
+	(wire
+		(pts
 			(xy 82.55 176.53) (xy 82.55 180.34)
 		)
 		(stroke
@@ -5103,16 +5103,6 @@
 			(type default)
 		)
 		(uuid "876ccaf5-64b9-429c-9b0b-a2acb01927f0")
-	)
-	(wire
-		(pts
-			(xy 128.27 49.53) (xy 128.27 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a17c367-e3d1-41be-aa17-197b2016cdd1")
 	)
 	(wire
 		(pts
@@ -5493,6 +5483,16 @@
 			(type default)
 		)
 		(uuid "c9f32e93-1d77-4d5d-9744-fcb7b2c489d9")
+	)
+	(wire
+		(pts
+			(xy 205.74 99.06) (xy 210.82 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc07dd9b-424e-4061-a6db-15d9c26cd6bb")
 	)
 	(wire
 		(pts
@@ -5926,17 +5926,6 @@
 		)
 		(uuid "059fb8d2-fa81-402f-8a55-a5a3938ff7c5")
 	)
-	(label "SDA"
-		(at 210.82 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "10bcf9ce-0337-42a4-8d40-fde715417d16")
-	)
 	(label "BRK2"
 		(at 250.19 127 0)
 		(fields_autoplaced yes)
@@ -6179,16 +6168,16 @@
 		)
 		(uuid "9549108d-b851-4c67-9634-837cbefb837a")
 	)
-	(label "SCL"
-		(at 207.01 96.52 0)
+	(label "SDA"
+		(at 207.01 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "9780ae75-9de2-43f6-b0fd-d6838e448234")
+		(uuid "98db1e7a-3ae8-4d23-9c69-6a4a61181320")
 	)
 	(label "INTB"
 		(at 180.34 114.3 0)
@@ -6233,6 +6222,17 @@
 			(justify right bottom)
 		)
 		(uuid "9fe33d66-da25-4efd-9c41-2484b19b5c5a")
+	)
+	(label "SCL"
+		(at 209.55 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a185a852-9650-411e-b2c7-8a1c9ef617cd")
 	)
 	(label "XTAL1"
 		(at 63.5 78.74 0)
@@ -11419,7 +11419,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 207.01 99.06 90)
+		(at 205.74 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11427,7 +11427,7 @@
 		(dnp no)
 		(uuid "b489f37b-7497-4c46-bbd2-8b0a822b549b")
 		(property "Reference" "TP17"
-			(at 209.804 100.584 90)
+			(at 208.534 100.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11435,7 +11435,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 209.804 103.124 90)
+			(at 208.534 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11443,7 +11443,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 207.01 93.98 0)
+			(at 205.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11452,7 +11452,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 93.98 0)
+			(at 205.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11461,7 +11461,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 207.01 99.06 0)
+			(at 205.74 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
