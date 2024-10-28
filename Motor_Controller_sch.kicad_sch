@@ -4259,12 +4259,12 @@
 		(uuid "4b4f7ca5-0559-4a19-b149-18a8082b885a")
 	)
 	(no_connect
-		(at 53.34 73.66)
-		(uuid "55c32bee-0e98-463b-a7fa-68dcd3b232d2")
-	)
-	(no_connect
 		(at 246.38 114.3)
 		(uuid "5fe7476f-2190-4d6e-beb7-81087cfe6d14")
+	)
+	(no_connect
+		(at 55.88 81.28)
+		(uuid "b25ecd72-9387-4d0b-8e8c-35b13a07ffcd")
 	)
 	(no_connect
 		(at 53.34 93.98)
@@ -4533,6 +4533,16 @@
 			(type default)
 		)
 		(uuid "2efbf15f-8bb3-4a1f-9347-905bb6c77a7d")
+	)
+	(wire
+		(pts
+			(xy 53.34 73.66) (xy 55.88 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "310ac586-4303-4e70-a29d-2c455d6adb32")
 	)
 	(wire
 		(pts
@@ -5894,7 +5904,17 @@
 		)
 		(uuid "6620954f-21a7-40fa-b472-d7451c9a2264")
 	)
-	(text "These 10kΩ resistors are not strictly nessercary, \nbut for the sake of reinforcing my learning, \nI decided to add these strong pull up resistors on the\n I2C bus and Interrupt signals."
+	(text "The forward voltage drops over the diodes are intentional"
+		(exclude_from_sim no)
+		(at 152.4 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7f5b645c-8ee9-435f-a5db-185f8cd5b07d")
+	)
+	(text "These 10kΩ resistors are not strictly nessercary, \nbut for the sake of reinforcing my learning, \nI decided to add these strong pull up resistors on the\n I2C bus (instead of the internal ones)\n and Interrupt signals."
 		(exclude_from_sim no)
 		(at 180.594 125.73 0)
 		(effects
@@ -6696,6 +6716,28 @@
 			)
 		)
 	)
+	(global_label "MOS_DRIVER"
+		(shape output)
+		(at 55.88 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e2b2eee-df18-4cdf-ba4f-8a7991a3f662")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.4766 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+5V"
 		(shape input)
 		(at 77.47 41.91 0)
@@ -7061,28 +7103,6 @@
 		(uuid "c9c896df-595b-4286-910f-94d82694511c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.82 76.9643 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOS_DRIVER"
-		(shape output)
-		(at 55.88 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ccfacd28-bbfd-46e6-8873-46a674379239")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.4766 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8057,75 +8077,6 @@
 			(project "SuperCapacitorBike"
 				(path "/1096cbe7-ac56-48cb-aadd-3e4addcdbbb7/a964da0d-002d-40d7-a8b6-c48f0e32c7fd"
 					(reference "TP20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5819")
-		(at 146.05 185.42 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30e4d568-2a26-456c-86be-5644139eeb29")
-		(property "Reference" "D12"
-			(at 135.89 187.452 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5819"
-			(at 135.89 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 141.605 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 146.05 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 146.05 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "64acd8ad-b819-4b18-a5be-5e652db04c4c")
-		)
-		(pin "1"
-			(uuid "d2b4cee8-0bf8-400f-8ea4-494c5209ef6f")
-		)
-		(instances
-			(project "SuperCapacitorBike"
-				(path "/1096cbe7-ac56-48cb-aadd-3e4addcdbbb7/a964da0d-002d-40d7-a8b6-c48f0e32c7fd"
-					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -10621,6 +10572,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N5819")
+		(at 146.05 185.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d1fc77a-b00e-4870-93fb-03c963164a63")
+		(property "Reference" "D8"
+			(at 133.604 184.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819"
+			(at 133.604 184.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 141.605 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 146.05 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 146.05 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97458f33-84d3-4ad8-a04d-fe20f7487068")
+		)
+		(pin "1"
+			(uuid "c81cc360-1699-4f96-a5e9-98185f535f9a")
+		)
+		(instances
+			(project "SuperCapacitorBike"
+				(path "/1096cbe7-ac56-48cb-aadd-3e4addcdbbb7/a964da0d-002d-40d7-a8b6-c48f0e32c7fd"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 260.35 109.22 270)
 		(unit 1)
@@ -12327,6 +12348,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N5819")
+		(at 148.59 182.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9c74210-deda-42f3-a1d6-12b7ef897f38")
+		(property "Reference" "D9"
+			(at 136.398 184.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819"
+			(at 133.604 183.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 144.145 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 148.59 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 148.59 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ba88b0d-9597-4998-944e-1f56b8af0328")
+		)
+		(pin "1"
+			(uuid "4be7fc3a-f924-457c-82ca-0b647418b633")
+		)
+		(instances
+			(project "SuperCapacitorBike"
+				(path "/1096cbe7-ac56-48cb-aadd-3e4addcdbbb7/a964da0d-002d-40d7-a8b6-c48f0e32c7fd"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 57.15 177.8 0)
 		(unit 1)
@@ -13087,76 +13177,6 @@
 			(project "SuperCapacitorBike"
 				(path "/1096cbe7-ac56-48cb-aadd-3e4addcdbbb7/a964da0d-002d-40d7-a8b6-c48f0e32c7fd"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5819")
-		(at 148.59 182.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8dd8209-80bf-45dc-a04e-8d3700926a11")
-		(property "Reference" "D11"
-			(at 139.954 189.992 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5819"
-			(at 150.876 192.278 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 144.145 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 148.59 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 148.59 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3b336206-80fe-41c1-8b97-d67c39186cdb")
-		)
-		(pin "1"
-			(uuid "42a5d40a-2cc0-414d-a368-88f01ad092e9")
-		)
-		(instances
-			(project "SuperCapacitorBike"
-				(path "/1096cbe7-ac56-48cb-aadd-3e4addcdbbb7/a964da0d-002d-40d7-a8b6-c48f0e32c7fd"
-					(reference "D11")
 					(unit 1)
 				)
 			)

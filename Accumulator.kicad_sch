@@ -3406,12 +3406,6 @@
 		(uuid "3b2c4108-5ba1-435e-baa8-23bcd9de2f75")
 	)
 	(junction
-		(at 241.3 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4453aebd-4c0f-4b51-b3d1-36325f5d7474")
-	)
-	(junction
 		(at 91.44 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3482,6 +3476,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdd9fa1a-1594-4463-a7cb-3e1b66d40e4a")
+	)
+	(junction
+		(at 233.68 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfe45a65-cb56-457c-8520-064ec8a119f2")
 	)
 	(junction
 		(at 53.34 21.59)
@@ -4077,7 +4077,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 138.43) (xy 229.87 138.43)
+			(xy 223.52 138.43) (xy 233.68 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4167,16 +4167,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 138.43) (xy 241.3 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b956dd21-9897-4d0b-85e8-a3f298009ae7")
-	)
-	(wire
-		(pts
 			(xy 59.69 134.62) (xy 59.69 138.43)
 		)
 		(stroke
@@ -4217,6 +4207,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 138.43) (xy 247.65 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e516b0-ac19-43b8-9a45-d3598a108e74")
+	)
+	(wire
+		(pts
 			(xy 43.18 85.09) (xy 50.8 85.09)
 		)
 		(stroke
@@ -4224,16 +4224,6 @@
 			(type default)
 		)
 		(uuid "dac631aa-8227-4069-be0d-eea3328ac838")
-	)
-	(wire
-		(pts
-			(xy 241.3 138.43) (xy 247.65 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db18abc4-e792-46e2-8b2a-92c3b6212c6c")
 	)
 	(wire
 		(pts
@@ -4364,6 +4354,16 @@
 			(type default)
 		)
 		(uuid "f56e1fab-5671-4e21-86ac-7bd4af169b79")
+	)
+	(text "Defiently not needed, but was cool to learn about.\n"
+		(exclude_from_sim no)
+		(at 204.724 160.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aef0f007-ca16-4375-b54f-92c187848b8d")
 	)
 	(text "9091Ω in when parallel, 3704Ω when in series"
 		(exclude_from_sim no)
@@ -6260,6 +6260,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 97.79 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ecab247-2f58-49b1-946e-537d88dc6ddf")
+		(property "Reference" "TP14"
+			(at 95.504 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 100.33 70.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 97.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2550a02-100a-4466-9179-2a2cddbf3a9c")
+		)
+		(instances
+			(project "SuperCapacitorBike"
+				(path "/1096cbe7-ac56-48cb-aadd-3e4addcdbbb7/a3002b5e-253f-453a-a6f1-d0dba20d26d3"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 259.08 22.86 0)
 		(unit 1)
@@ -7809,74 +7876,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 233.68 138.43 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdaa32ad-6615-447f-87e4-58c157cd0f67")
-		(property "Reference" "R15"
-			(at 233.68 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47Ω"
-			(at 233.68 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 233.934 137.414 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 233.68 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35879f4d-d7b8-46c9-9304-ec9803ac782f")
-		)
-		(pin "2"
-			(uuid "b499fc93-9f27-47ae-bd16-8facd9a4c43d")
-		)
-		(instances
-			(project ""
-				(path "/1096cbe7-ac56-48cb-aadd-3e4addcdbbb7/a3002b5e-253f-453a-a6f1-d0dba20d26d3"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 259.08 20.32 0)
 		(unit 1)
@@ -8012,7 +8011,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 241.3 138.43 0)
+		(at 233.68 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8020,7 +8019,7 @@
 		(dnp no)
 		(uuid "c4faa585-144c-4722-b454-6e408e9f4e23")
 		(property "Reference" "TP31"
-			(at 239.014 133.35 0)
+			(at 231.394 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8029,7 +8028,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 243.84 136.3979 0)
+			(at 236.22 136.3979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8039,7 +8038,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 246.38 138.43 0)
+			(at 238.76 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,7 +8047,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 138.43 0)
+			(at 238.76 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8057,7 +8056,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 241.3 138.43 0)
+			(at 233.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2914,7 +2914,7 @@
 				)
 			)
 		)
-		(property "Value" "47Ω"
+		(property "Value" "10Ω"
 			(at 102.87 154.94 90)
 			(effects
 				(font
@@ -3052,7 +3052,7 @@
 				)
 			)
 		)
-		(property "Value" "47Ω"
+		(property "Value" "10Ω"
 			(at 102.87 96.52 90)
 			(effects
 				(font
@@ -3782,7 +3782,7 @@
 				)
 			)
 		)
-		(property "Value" "47Ω"
+		(property "Value" "10Ω"
 			(at 102.87 53.34 90)
 			(effects
 				(font
@@ -4650,7 +4650,7 @@
 				)
 			)
 		)
-		(property "Value" "47Ω"
+		(property "Value" "10Ω"
 			(at 102.87 40.64 90)
 			(effects
 				(font
@@ -4718,7 +4718,7 @@
 				)
 			)
 		)
-		(property "Value" "47Ω"
+		(property "Value" "10Ω"
 			(at 102.87 109.22 90)
 			(effects
 				(font
@@ -4918,7 +4918,7 @@
 				)
 			)
 		)
-		(property "Value" "47Ω"
+		(property "Value" "10Ω"
 			(at 102.87 167.64 90)
 			(effects
 				(font
