@@ -164,7 +164,7 @@ I am currently installing the Hall effect sensors into the motor. The previous s
 
 ## Personal Note
 
-Somehow I managed to get sick twice throughout the last two months! I am doing my best to balance schoolwork and look over my design. I hope to have the PCB ordered by the end of this week (2024/10/20). Please Stay tuned! I am still pushing through and doing all I can =)!
+Somehow I managed to get sick twice throughout the last two months! I am doing my best to balance schoolwork and look over my design. I hope to have the PCB ordered by the end of October. Please Stay tuned! I am still pushing through and doing all I can. =)
 
 
 ## Sources

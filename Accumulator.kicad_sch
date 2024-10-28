@@ -175,6 +175,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -3280,6 +3382,12 @@
 		)
 	)
 	(junction
+		(at 260.35 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15db4a59-e013-4d7f-a8ce-35ffe5daa748")
+	)
+	(junction
 		(at 187.96 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3290,6 +3398,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e9fbffa-6b8d-4467-889b-cd469d9d4968")
+	)
+	(junction
+		(at 125.73 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b2c4108-5ba1-435e-baa8-23bcd9de2f75")
+	)
+	(junction
+		(at 241.3 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4453aebd-4c0f-4b51-b3d1-36325f5d7474")
 	)
 	(junction
 		(at 91.44 27.94)
@@ -3346,16 +3466,46 @@
 		(uuid "a5031241-9ccd-428a-bf96-48c8dfef162d")
 	)
 	(junction
+		(at 177.8 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b079d3e6-2b4f-41e8-a912-a8ec9d8c7ade")
+	)
+	(junction
+		(at 185.42 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b63eb303-ca6a-46ab-ab41-f3f685ace077")
+	)
+	(junction
+		(at 250.19 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdd9fa1a-1594-4463-a7cb-3e1b66d40e4a")
+	)
+	(junction
 		(at 53.34 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9d237f2-d25b-4d58-b407-cd0854012884")
 	)
 	(junction
+		(at 59.69 132.5353)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d412e246-003f-4a92-821f-edf1a130cfd1")
+	)
+	(junction
 		(at 53.34 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de4bfcd8-0a05-493a-bc97-64f7b4f8ddc3")
+	)
+	(junction
+		(at 125.73 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f92438ab-907b-4f9f-8318-5793b623d05c")
 	)
 	(no_connect
 		(at 120.65 80.01)
@@ -3437,7 +3587,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 130.81) (xy 59.69 134.62)
+			(xy 59.69 130.81) (xy 59.69 132.5353)
 		)
 		(stroke
 			(width 0)
@@ -3457,7 +3607,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 72.39) (xy 124.46 72.39)
+			(xy 120.65 72.39) (xy 125.73 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3514,6 +3664,16 @@
 			(type default)
 		)
 		(uuid "18313767-1ff6-402c-84f6-d30b9f9501e9")
+	)
+	(wire
+		(pts
+			(xy 59.69 132.5353) (xy 59.69 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1841f36d-aba9-43d8-acdd-239f77743c79")
 	)
 	(wire
 		(pts
@@ -3657,7 +3817,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 138.43) (xy 187.96 138.43)
+			(xy 175.26 138.43) (xy 177.8 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3697,7 +3857,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 74.93) (xy 124.46 74.93)
+			(xy 120.65 74.93) (xy 125.73 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3857,7 +4017,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 118.11) (xy 250.19 118.11)
+			(xy 264.16 118.11) (xy 260.35 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3927,6 +4087,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 74.93) (xy 132.08 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40a5199-ade7-4047-9d89-e96c06d8edb5")
+	)
+	(wire
+		(pts
 			(xy 185.42 69.85) (xy 186.69 69.85)
 		)
 		(stroke
@@ -3944,6 +4114,16 @@
 			(type default)
 		)
 		(uuid "a97b59bb-e3fd-41b2-8501-748e90934415")
+	)
+	(wire
+		(pts
+			(xy 125.73 72.39) (xy 132.08 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acaebb92-3bbc-4aa6-917e-d94ddce0e752")
 	)
 	(wire
 		(pts
@@ -3977,7 +4157,17 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 138.43) (xy 247.65 138.43)
+			(xy 260.35 118.11) (xy 250.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b59d7e04-6780-40ab-8779-9fbac2c02c35")
+	)
+	(wire
+		(pts
+			(xy 237.49 138.43) (xy 241.3 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3994,6 +4184,16 @@
 			(type default)
 		)
 		(uuid "c1b186ce-329d-4199-8dd0-a1f625bc8c05")
+	)
+	(wire
+		(pts
+			(xy 177.8 138.43) (xy 187.96 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccaba148-bc58-48ca-807e-7f6a53414544")
 	)
 	(wire
 		(pts
@@ -4024,6 +4224,16 @@
 			(type default)
 		)
 		(uuid "dac631aa-8227-4069-be0d-eea3328ac838")
+	)
+	(wire
+		(pts
+			(xy 241.3 138.43) (xy 247.65 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db18abc4-e792-46e2-8b2a-92c3b6212c6c")
 	)
 	(wire
 		(pts
@@ -4442,7 +4652,7 @@
 	)
 	(global_label "MOS_DRIVER"
 		(shape input)
-		(at 182.88 138.43 180)
+		(at 175.26 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4452,7 +4662,7 @@
 		)
 		(uuid "6c33987f-050d-495c-8e50-4887055fba6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.2834 138.43 0)
+			(at 160.6634 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4552,7 +4762,7 @@
 	)
 	(global_label "RELAY_1"
 		(shape output)
-		(at 124.46 72.39 0)
+		(at 132.08 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4562,7 +4772,7 @@
 		)
 		(uuid "b2f673a9-ad8d-46e8-8840-5de4db070295")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.2466 72.39 0)
+			(at 142.8666 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4618,7 +4828,7 @@
 	)
 	(global_label "RELAY_2"
 		(shape output)
-		(at 124.46 74.93 0)
+		(at 132.08 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4628,7 +4838,7 @@
 		)
 		(uuid "eaf4cd6c-51cf-4ec8-9e0c-d6d105d3a93e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.2466 74.93 0)
+			(at 142.8666 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4723,6 +4933,73 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 177.8 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00fbaf73-ccba-492c-a10a-85603a4f25f9")
+		(property "Reference" "TP32"
+			(at 180.086 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 175.26 140.4621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 172.72 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 177.8 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39ae8a31-f4d6-4d18-90a6-bc9750b495dc")
+		)
+		(instances
+			(project "SuperCapacitorBike"
+				(path "/1096cbe7-ac56-48cb-aadd-3e4addcdbbb7/a3002b5e-253f-453a-a6f1-d0dba20d26d3"
+					(reference "TP32")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5679,6 +5956,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 186.69 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "235415f8-eed3-4392-b726-1fbcc24782ec")
+		(property "Reference" "TP33"
+			(at 188.976 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 184.15 92.2021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 186.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba74488f-a122-4727-b167-404467bedcb4")
+		)
+		(instances
+			(project "SuperCapacitorBike"
+				(path "/1096cbe7-ac56-48cb-aadd-3e4addcdbbb7/a3002b5e-253f-453a-a6f1-d0dba20d26d3"
+					(reference "TP33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "NMOS_1")
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 261.62 123.19 0)
@@ -6379,6 +6723,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 59.69 132.5353 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "617dc4b8-c608-4ecd-b2c0-4a42763f2dd7")
+		(property "Reference" "TP26"
+			(at 64.77 132.5352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 61.7221 135.0753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 59.69 137.6153 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 137.6153 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 59.69 132.5353 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f80ec0b-6493-4633-8da5-85392af4f20a")
+		)
+		(instances
+			(project "SuperCapacitorBike"
+				(path "/1096cbe7-ac56-48cb-aadd-3e4addcdbbb7/a3002b5e-253f-453a-a6f1-d0dba20d26d3"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 185.42 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "620bb133-4192-40b8-8daf-508cd7e5aec1")
+		(property "Reference" "TP30"
+			(at 187.96 73.1519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 182.88 71.8821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 180.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 185.42 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ba849fe-a5bf-42c5-8a60-06e88c6909ff")
+		)
+		(instances
+			(project "SuperCapacitorBike"
+				(path "/1096cbe7-ac56-48cb-aadd-3e4addcdbbb7/a3002b5e-253f-453a-a6f1-d0dba20d26d3"
+					(reference "TP30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 172.72 125.73 0)
 		(unit 1)
@@ -6857,6 +7337,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 125.73 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bb9849c-97d8-4bcc-a615-34e8e73fff01")
+		(property "Reference" "TP25"
+			(at 128.016 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 123.19 76.9621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 125.73 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30858f5e-83d5-49d7-b1b6-723691a86437")
+		)
+		(instances
+			(project "SuperCapacitorBike"
+				(path "/1096cbe7-ac56-48cb-aadd-3e4addcdbbb7/a3002b5e-253f-453a-a6f1-d0dba20d26d3"
+					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Terminal_1190363:1190363")
 		(at 48.26 35.56 270)
 		(unit 1)
@@ -6968,6 +7515,74 @@
 			(project ""
 				(path "/1096cbe7-ac56-48cb-aadd-3e4addcdbbb7/a3002b5e-253f-453a-a6f1-d0dba20d26d3"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 125.73 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b198258d-1372-4f88-a92a-6b827b3cd401")
+		(property "Reference" "TP24"
+			(at 128.27 69.0879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 128.27 70.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 130.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 125.73 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4e5567c-6b4b-4246-bfc9-a72a76184689")
+		)
+		(instances
+			(project "SuperCapacitorBike"
+				(path "/1096cbe7-ac56-48cb-aadd-3e4addcdbbb7/a3002b5e-253f-453a-a6f1-d0dba20d26d3"
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -7329,6 +7944,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 43.18 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf3aa990-9200-49a2-9283-d4933fd01e33")
+		(property "Reference" "TP27"
+			(at 39.878 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 41.1479 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 43.18 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 43.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9aa66e1-641c-4ab9-ac5b-dad5089fccf9")
+		)
+		(instances
+			(project "SuperCapacitorBike"
+				(path "/1096cbe7-ac56-48cb-aadd-3e4addcdbbb7/a3002b5e-253f-453a-a6f1-d0dba20d26d3"
+					(reference "TP27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 241.3 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4faa585-144c-4722-b454-6e408e9f4e23")
+		(property "Reference" "TP31"
+			(at 239.014 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 243.84 136.3979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 246.38 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 241.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5ac9749-cc7a-4885-a6ee-cdcf32d544dc")
+		)
+		(instances
+			(project "SuperCapacitorBike"
+				(path "/1096cbe7-ac56-48cb-aadd-3e4addcdbbb7/a3002b5e-253f-453a-a6f1-d0dba20d26d3"
+					(reference "TP31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 44.45 153.67 0)
 		(unit 1)
@@ -7596,6 +8345,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 250.19 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df9fa5c4-c27c-458b-adaf-c37cfd8a2a01")
+		(property "Reference" "TP28"
+			(at 255.27 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 252.2221 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 250.19 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 250.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee6e7904-f78f-4c0b-81a6-9f5a74dcf473")
+		)
+		(instances
+			(project "SuperCapacitorBike"
+				(path "/1096cbe7-ac56-48cb-aadd-3e4addcdbbb7/a3002b5e-253f-453a-a6f1-d0dba20d26d3"
+					(reference "TP28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 53.34 20.32 0)
 		(unit 1)
@@ -7723,6 +8540,74 @@
 			(project "SuperCapacitorBike"
 				(path "/1096cbe7-ac56-48cb-aadd-3e4addcdbbb7/a3002b5e-253f-453a-a6f1-d0dba20d26d3"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 260.35 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef727a5f-c253-4962-ae32-287daa924fb5")
+		(property "Reference" "TP29"
+			(at 262.89 114.8079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 262.89 116.0779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 265.43 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 260.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c03e104-abe0-45bd-9fba-ac526e2864c1")
+		)
+		(instances
+			(project "SuperCapacitorBike"
+				(path "/1096cbe7-ac56-48cb-aadd-3e4addcdbbb7/a3002b5e-253f-453a-a6f1-d0dba20d26d3"
+					(reference "TP29")
 					(unit 1)
 				)
 			)
