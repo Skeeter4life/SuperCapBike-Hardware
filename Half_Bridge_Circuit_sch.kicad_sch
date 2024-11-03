@@ -2079,6 +2079,16 @@
 		)
 		(uuid "f5eb00a3-357b-49be-9dba-ed7495da5abc")
 	)
+	(text "Same idea with the gate resistors here.\n"
+		(exclude_from_sim no)
+		(at 140.716 43.688 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f9066d3-ee95-47ed-8eea-1fe0fdda36e2")
+	)
 	(label "VS1"
 		(at 116.84 54.61 0)
 		(fields_autoplaced yes)
