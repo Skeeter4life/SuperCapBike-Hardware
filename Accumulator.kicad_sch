@@ -4401,7 +4401,7 @@
 		)
 		(uuid "aef0f007-ca16-4375-b54f-92c187848b8d")
 	)
-	(text "9091Ω in when parallel, 3704Ω when in series"
+	(text "10kΩ in when parallel, 4074Ω when in series"
 		(exclude_from_sim no)
 		(at 44.45 110.49 0)
 		(effects
@@ -5828,7 +5828,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25kΩ"
+		(property "Value" "10kΩ"
 			(at 45.72 93.9799 0)
 			(effects
 				(font
@@ -6244,7 +6244,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20kΩ"
+		(property "Value" "22kΩ"
 			(at 62.23 128.2699 0)
 			(effects
 				(font
@@ -8463,7 +8463,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "55kΩ"
+		(property "Value" "22kΩ"
 			(at 45.72 78.7399 0)
 			(effects
 				(font
