@@ -69,7 +69,7 @@ MOSFETS:
 - GT065P06T x 1 [^17]
 
 Resistors: 
-- 220Ω, 10kΩ, 25kΩ, 55kΩ Resistor Kit: [^18]
+- 0Ω, 10Ω, 220Ω, 10kΩ, 22kΩ Resistor Kit: [^18] (Not included in total price!)
 
 Terminals: 
 - 1988804 x 1 [^19], 
@@ -102,8 +102,8 @@ Half Bridge Drivers:
 - IR2104 x 3 [^30]
 
 Linear Regulators: 
--L7805 x1 [^31], 
-- L78L33 x1 [^32]
+- L7805 x1 [^31], 
+- L78L33ACZ x1 [^32] (Considering upgrading to one that can output more current, I have not decided on display yet, but I had it)
 
 Hall Effect Sensors: 
 - TMAG5213AGQLPG x 3 [^33]
@@ -111,9 +111,7 @@ Hall Effect Sensors:
 Switches: 
 - 2057-SW-R-K1-A-ND x 1 [^34] 
 
-Total raw components cost: **$ 114.69 CAD**
-
-*Note: The prices here show the price for the exact number of the components listed. They were not entirely optimized. It would be significantly cheaper if components were bought in bulk*
+Subtotal: **$ 98.21 CAD**
 
 ## Schematic and PCB
 
@@ -168,7 +166,6 @@ Somehow I managed to get sick twice throughout the last two months! I am doing m
 
 PCB ORDERED! :O
 
-
 ## Sources
 
 [^1]: https://www.digikey.ca/en/products/detail/kemet/C322C104M5U5TA/818107
@@ -202,6 +199,6 @@ PCB ORDERED! :O
 [^29]: https://www.digikey.ca/en/products/detail/microchip-technology/MCP4151-103E-P/1874217
 [^30]: https://www.digikey.ca/en/products/detail/infineon-technologies/IR2104PBF/812198
 [^31]: https://www.digikey.ca/en/products/detail/stmicroelectronics/L7805CV/585964
-[^32]: https://www.digikey.ca/en/products/detail/stmicroelectronics/L78L33ABZ-AP/1663442
+[^32]: https://www.digikey.ca/en/products/detail/stmicroelectronics/L78L33ACZ/1038304
 [^33]: https://www.digikey.ca/en/products/detail/texas-instruments/TMAG5213AGQLPG/22531584
 [^34]: https://www.digikey.ca/en/products/detail/adam-tech/SW-R-K1-A/15284469
